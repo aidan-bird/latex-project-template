@@ -1,0 +1,84 @@
+%
+% Aidan Bird, 2021
+%
+% template doc
+%
+
+\documentclass[10pt,a4paper]{article}
+\newcommand{\projectroot}{/XXX}
+\input{\projectroot/src/head.tex}
+\begin{document}
+\title{XXX}
+\author{Aidan Bird}
+\date{\autodate\today}
+\maketitle
+\phantomsection
+\addcontentsline{toc}{section}{Introduction}
+
+% pol60
+% \begin{figure}[H]
+% \centering
+% \begin{adjustbox}{width=\textwidth}
+% \includegraphics{\projectroot/src/pol60.pdf}
+% \end{adjustbox}
+% \end{figure}
+
+\newpage
+
+\section*{Objective} 
+
+\section*{Analysis} 
+
+\subsection*{1)}
+
+% FIGURE EXAMPLE
+% \begin{figure}[H]
+%     \centering
+%     \begin{adjustbox}{width=\textwidth}
+%         \input{\projectroot/figures/fig1.tex}
+%     \end{adjustbox}
+%     \caption{The graph of the I-V curves at varying gate voltages. The black
+%     portions of the curves are the linear regions and the black circles
+%     indicate where the saturation region begins.}
+%     \label{figure1}
+% \end{figure}
+
+\FloatBarrier
+
+% TABLE EXAMPLE
+% \begin{figure}[H]
+%     \centering
+%     \begin{tabular}{llr}  
+%         \toprule
+%         Gate Voltage (V) & Voltage (V) & Current ($\mu$A) \\
+%         \midrule
+%         1 & 0.2 & 4  \\
+%         2 & 0.6 & 20 \\
+%         3 & 0.7 & 36 \\
+%         4 & 0.8 & 56  \\
+%         5 & 0.9 & 79   \\
+%         \bottomrule
+%     \end{tabular}
+%     \caption{current-voltage characteristics of the end of the linear region
+%     (end of the black lines in Figure \ref{figure1}) for various gate voltages.
+%     }
+%     \label{figure2}
+% \end{figure}
+
+\FloatBarrier
+
+\newpage
+
+\subsection*{2)}
+
+% MATH EXAMPLE
+% \begin{align*}
+%     I_D &= K_n [ 2 (V_{GS} - V_{TN}) V_{DS} ] \\
+%     &= 2 K_n V_{DS} V_{GS} - 2 K_n V_{DS} V_{TH} \\
+%     \text{The slope } M &= 2 K_n V_{DS} \\
+%     K_n &= \frac {M} {2 V_{DS}} \\
+% \end{align*}
+
+\section*{Appendix} 
+
+\end{document}
