@@ -12,3 +12,16 @@
 \usepackage{placeins}
 \newdateformat{autodate}{\THEDAY~\monthname[\THEMONTH] \THEYEAR}
 \usepackage{booktabs}
+\usepackage{pdfpages}
+\usepackage{fancyhdr}
+\usepackage{changepage}
+\usepackage{tablefootnote}
+\usepackage[backend=biber, style=numeric, citestyle=apa]{biblatex}
+\pagestyle{fancy}
+\fancyhead[C]{}
+\fancyhead[L]{name}
+\fancyhead[R]{\textbf{sample text}}
+\fancyfoot[L,C]{}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{0.4pt}
