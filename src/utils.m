@@ -1,7 +1,7 @@
 %
 % Aidan Bird 2021
 %
-% autils.m
+% utils.m
 %
 % Various functions that do useful things.
 %

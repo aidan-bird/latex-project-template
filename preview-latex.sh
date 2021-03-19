@@ -5,6 +5,14 @@
 # preview a latex document; for use in vim.
 #
 
+# TODO try storing the hash of the project directory and then compare it with
+# the directory in the argument to check if any changes are made. if there are no changes
+# then open the pdf file if it already exists.
+#
+# TODO create a script for comparing directories quickly. use various huristics.
+# make it extendable for use in other scripts. this will be used for caching
+#
+
 output_path=/tmp
 cmd_usage="usage: $(basename "$0") [Path to latex file]"
 [ $# -lt 1 ] && echo "$cmd_usage" && exit -1
